@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LYEmptyView (1.3.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - YBPopupMenu (1.1.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - LYEmptyView
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - YBPopupMenu
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - YBPopupMenu
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  YBPopupMenu: 3a02e89860bb0568ba477aee609bc3f25e5bd339
+
+PODFILE CHECKSUM: cf9aabfe281fee86a010929b06d74030e095a369
+
+COCOAPODS: 1.11.2
