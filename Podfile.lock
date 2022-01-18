@@ -18,6 +18,14 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.1)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
   - YBPopupMenu (1.1.9)
 
 DEPENDENCIES:
@@ -26,6 +34,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJExtension
+  - MQTTClient
   - YBPopupMenu
 
 SPEC REPOS:
@@ -35,6 +44,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJExtension
+    - MQTTClient
     - YBPopupMenu
 
 SPEC CHECKSUMS:
@@ -43,8 +53,9 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
   YBPopupMenu: 3a02e89860bb0568ba477aee609bc3f25e5bd339
 
-PODFILE CHECKSUM: cf9aabfe281fee86a010929b06d74030e095a369
+PODFILE CHECKSUM: 6e84ec67a1d50883b6e3de08ed63eb5a51f52ab5
 
 COCOAPODS: 1.11.2

@@ -13,6 +13,9 @@ target 'mtqqPlus' do
   pod 'MJExtension'
   pod 'LYEmptyView'
   pod 'YBPopupMenu'
+  #pod 'CocoaAsyncSocket'
+  # MQTT
+  pod 'MQTTClient'
 
 
 end
